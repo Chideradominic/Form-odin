@@ -7,20 +7,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="background-image">
-  <div id="logo">
-    <img src="odin-lined.png" alt="odin-logo">
-    ODIN
+<div id="background-image" style="background-image: url(background-image.jpg);">
+    <div id="logo">
+    <div><img src="odin-lined.png" alt="odin-logo">
+    </div>
+    <p>ODIN</p>
   </div>
 </div>
 <div id="form">
-  <p>this is not a real online service! you know you need something line this for your life to help you realize your deepest dreams.  Sign up <em>now</em> to get started.</p>
-  <p> You <em>know</em> you want to.</p>
+  <p><strong> This is not a real online service! you know you need something line this for your life to help you realize your deepest dreams.  Sign up <em>now</em> to get started.</strong></p>
+  <p><strong> You <em>know</em> you want to.</strong></p>
+  <h1>Let's do this!</h3>
   <div id="form-content">
-    <h3>Let's do this!</h3>
+   
     <form action="#" method="get">
-      </div>
+      <div id="inside-form">
       <div id="first-name">
+       <div id="section-one">
         <label for="first-name"> FIRST NAME </label>
         <input type="text" id="first-name" name="first-name" placeholder="Thor" required>
       </div>
@@ -32,6 +35,8 @@
         <label for="mail"> EMAIL</label>
         <input type="email" id="mail" name="mail" required>
       </div>
+    </div>
+    <div id="section-two">
       <div id="phone-number">
         <label for="phone-number"> PHONE NUMBER </label>
         <input type="tel" id="phone-number" name="phone-number" required>
@@ -44,10 +49,16 @@
         <label for="confirm-password"> CONFIRM PASSWORD </label>
         <input type="password" id="confirm-password" name="confirm-password" required>
       </div>
-      <button type="submit"> Create Account</button>
+      </div>
+      </div>
+      <button class="btn" type="submit"> Create Account</button>
     </form>
+   
+    <p> Already have an account? <a href="#"> Log in</a></p>
+   
   </div>
-  <p> Already have an account? <a href="#"> Log in</a></p>
+  </div>
+</div>
 
 
 </div>
