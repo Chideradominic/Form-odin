@@ -55,7 +55,7 @@ p {
 #form{
   display: flex;
   flex-direction: column ;
-  width: 40%;
+  width: 60%;
   padding: 20px;
   flex-wrap: wrap;
   align-content: space-evenly;
